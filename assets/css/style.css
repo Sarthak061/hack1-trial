@@ -37,6 +37,7 @@ h6 {
 /*  */
 
 .text {
+    font-size: 60px;
     background: linear-gradient(to right, #c766ae 0%, #6209f5 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -217,7 +218,6 @@ h6 {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-
 #header .logo a {
     color: #fff;
 }
