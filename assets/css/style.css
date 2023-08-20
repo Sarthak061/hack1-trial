@@ -839,6 +839,127 @@ button.accordion-button:not(.collapsed) {
     min-height: 400px;
 }
 
+/*--------------------------------------------------------------
+# tracks
+--------------------------------------------------------------*/
+.tracks .icon-box {
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #181818;
+}
+
+.tracks .icon-box .icon {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    position: relative;
+}
+
+.tracks .icon-box .icon i {
+    font-size: 36px;
+    transition: 0.5s;
+    position: relative;
+}
+
+.tracks .icon-box h4 {
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+}
+
+.tracks .icon-box h4 {
+    color: #fff;
+    transition: ease-in-out 0.3s;
+}
+
+.tracks .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.tracks .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 35px 0 rgba(208, 208, 208, 0.07);
+}
+
+.tracks .iconbox-blue i {
+    color: #47aeff;
+}
+
+.tracks .iconbox-blue:hover .icon i {
+    color: #fff;
+}
+
+.tracks .iconbox-blue:hover .icon {
+    background: #47aeff;
+}
+
+.tracks .iconbox-orange i {
+    color: #ffa76e;
+}
+
+.tracks .iconbox-orange:hover .icon i {
+    color: #fff;
+}
+
+.tracks .iconbox-orange:hover .icon {
+    background: #ffa76e;
+}
+
+.tracks .iconbox-pink i {
+    color: #e80368;
+}
+
+.tracks .iconbox-pink:hover .icon i {
+    color: #fff;
+}
+
+.tracks .iconbox-pink:hover .icon {
+    background: #e80368;
+}
+
+.tracks .iconbox-yellow i {
+    color: #ffbb2c;
+}
+
+.tracks .iconbox-yellow:hover .icon i {
+    color: #fff;
+}
+
+.tracks .iconbox-yellow:hover .icon {
+    background: #ffbb2c;
+}
+
+.tracks .iconbox-red i {
+    color: #ff5828;
+}
+
+.tracks .iconbox-red:hover .icon i {
+    color: #fff;
+}
+
+.tracks .iconbox-red:hover .icon {
+    background: #ff5828;
+}
+
+.tracks .iconbox-teal i {
+    color: #11dbcf;
+}
+
+.tracks .iconbox-teal:hover .icon i {
+    color: #fff;
+}
+
+.tracks .iconbox-teal:hover .icon {
+    background: #11dbcf;
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials
