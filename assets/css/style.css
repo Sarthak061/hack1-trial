@@ -529,7 +529,7 @@ h6 {
     font-family: 'Baloo 2', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;;
-    font-size: 62px;
+    font-size: 44px;
     font-weight: 700;
     line-height: 64px;
     color: #fff;
@@ -643,8 +643,6 @@ section {
     overflow: hidden;
 }
 
-.section-bg {}
-
 .section-title {
     text-align: center;
     padding-bottom: 30px;
@@ -681,11 +679,6 @@ section {
 
 .about {
     padding: 10px 0;
-}
-
-.about .content p{
-    display: flex;
-    justify-content : right;
 }
 
 .about .content h3 {
@@ -764,7 +757,6 @@ section {
     font-size: 15px;
     color: rgba(255, 255, 255, 0.8);
 }
-
 
 
 
@@ -850,7 +842,7 @@ button.accordion-button:not(.collapsed) {
 /* timeline */
 /* timeline */
 #timeline-sec{
-    width: 100%%;
+    width: 100%;
     max-width: var(--secmax);
     margin: 0 auto;
     padding: 6rem 1.2rem 0 1.2rem;	
