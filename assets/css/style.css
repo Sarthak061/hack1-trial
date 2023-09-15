@@ -798,8 +798,10 @@ button.accordion-button:not(.collapsed) {
     >.back {
         display: block;
         transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-        transition-duration: .5s;
-        transition-property: transform, opacity;
+
+        transition-duration: 0.30s;
+        transition-property: all, opacity;
+
     }
     >.front {
         transform: rotateY(0deg);
@@ -1091,6 +1093,7 @@ button.accordion-button:not(.collapsed) {
 .tracks .icon-box:hover {
     border-color: #fff;
     box-shadow: 0px 0 35px 0 rgba(208, 208, 208, 0.07);
+    cursor: pointer;
 }
 
 .tracks .button{
@@ -1977,7 +1980,12 @@ padding: 1vw 1vw 1vw 1vw;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-
+#contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contact .info-box {
     color: #444444;
     text-align: center;
