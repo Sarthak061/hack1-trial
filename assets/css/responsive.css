@@ -227,6 +227,21 @@
 
 @media (max-width: 575.98px) {
 
+    .sp-track-box{
+        display: block;
+        margin: 5%;
+    }
+
+    .sp-track-box img{
+        float: none !important;
+        width: 50%; 
+        margin: 10%;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
     .sponsors .sponsor-box img{
         max-width: 60%;
     }
